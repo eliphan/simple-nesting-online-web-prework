@@ -138,7 +138,7 @@ def adding_to_dennis
           known_for: "Unix", languages: ["Assembly"]
                         }
                     }
-  programmer_hash[:dennis_ritchie][:languages].merge(new_language)
+  programmer_hash.merge(new_language)
      
   programmer_hash
 end
